@@ -17,6 +17,12 @@ The following is decision rules for reallocation.
 * Otherwise, we will do nothing.  
 
 ### Experiment
-The stock symbol for the publicly-traded company will be stored in a text file on GitHub. The purpose for doing this is to practice accessing external data source from a QuantConnect program. 
+The stock symbol for the publicly-traded company will be stored in a text file on GitHub. The purpose for doing this is to practice accessing external data source from a QuantConnect program. The individual publicly traded company stock used was AAPL.
+
+Backtesting was run from Aug-1-2007 to Aug-1-2010, and from Aug-1-2007 to Aug-1-2020. For analysis of the trading algorithm, SPY was used as the benchmark.
 
 ### Result
+Backtest 1: Aug-1-2007 to Aug-1-2010
+
+
+Backtest 2: Aug-1-2007 to Aug-1-2020
