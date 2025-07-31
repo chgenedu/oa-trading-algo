@@ -66,3 +66,8 @@ The proposed momentum trading algorithm seems to be able to provide significant 
 * [Backtest1 AAPL 3 year Period Report](./backtest-report/Report1%20-%20Jumping%20Fluorescent%20Yellow%20Lemur%20-%20dea6c26b6069fa6bf831e7b4921c5855.pdf)
 * [Backtest2 AAPL 13 year Period Report](./backtest-report/Report2%20-%20Crawing%20Yellow%20Dog%20-%201bf8a65746d4f7924475b5935c598286.pdf)
 * [Backtest3 SPY 13 year PEriod Report](./backtest-report/Report3%20-%20Geeky%20Red%20Orange%20Jaguar%20-%2070f4db255fb5fe08364788ff2e73d395.pdf)
+
+## Note
+The algorithm and code for this project is partly inspired by what is taught at QuantConnect's Boot Camp 101.
+https://www.quantconnect.com/learning/course/1/Boot-Camp-101-US-Equities
+
