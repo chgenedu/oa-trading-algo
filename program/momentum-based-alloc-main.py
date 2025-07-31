@@ -10,12 +10,12 @@ class MomentumAllocation(QCAlgorithm):
     def initialize(self):
         text = self.download("https://raw.githubusercontent.com/chgenedu/oa-trading-algo/8403d576252557dee077fd6c90b73b5ae739f0a6/data-source/data.txt")
         self._stock_symbol = text.strip()
-        ## Below are other symbols used for informal testing.
+        ### Below are other symbols used for informal testing.
         # self._stock_symbol = "AAPL"
         # self._stock_symbol = "INTC"
-        # self._stock_symbol = "SPY"
         # self._stock_symbol = "GM"
         # self._stock_symbol = "F"
+        ## self._stock_symbol = "SPY"
         self.log("Stock Symbol: " + self._stock_symbol)
         self.debug("Stock Symbol: " + self._stock_symbol)
 
